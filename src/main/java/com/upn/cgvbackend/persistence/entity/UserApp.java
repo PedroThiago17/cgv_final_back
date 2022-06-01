@@ -22,7 +22,7 @@ public class UserApp {
 	@Column(name = "last_name_user", nullable = false)
 	private String lastNameUser;
 
-	@Column(name = "document_user", nullable = false)
+	@Column(name = "document_user", nullable = false, unique = true)
 	private String documentUser;
 
 	@Column(name = "birthday_user", nullable = false)

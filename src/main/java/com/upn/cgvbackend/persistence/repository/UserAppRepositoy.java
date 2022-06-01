@@ -8,4 +8,5 @@ import com.upn.cgvbackend.persistence.entity.UserApp;
 @Repository
 public interface UserAppRepositoy extends JpaRepository<UserApp, Integer> {
 
+	UserApp findByDocumentUser(String documentUser);
 }
