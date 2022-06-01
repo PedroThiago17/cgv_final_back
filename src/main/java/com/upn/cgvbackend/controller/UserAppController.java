@@ -51,7 +51,7 @@ public class UserAppController {
 	@GetMapping("/bonita/{fecha}")
 	public String miBonita(@PathVariable String fecha) {
 		if (fecha.equals("10-05-2022")) {
-			return "Muy bien mi amor <3 ! </br> Sabía que lo harías. Eres muy inteligente, bonita, hermosa, sexy :$ y sobre todo, muy inteligente. Eres puro arte <3</br> No olvides que te adoro mi hermosa, te adoro demasiado.</br> Gracias por participar xd";
+			return "Muy bien mi amor <3! </br> Sabía que lo harías. Eres muy inteligente, bonita, hermosa, sexy :$ y sobre todo, muy inteligente. Eres puro arte <3</br> No olvides que te adoro mi hermosa, te adoro demasiado.</br> Gracias por participar xd";
 		} else
 			return "Te equivocaste :c </br> Pero no te preocupes mi amor! Te dejaré una pequeña pista...</br> <b>Es un dato muy importante para nosotros... usa guiones :3</b>";
 	}
